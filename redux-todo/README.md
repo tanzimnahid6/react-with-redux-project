@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite + Redux
 Here you can find my Todo app,where you can maintain your task 
 - You can add a task using click button of simply click enter button 
 - first time you enter the website you need not to click input feild,autometically it focus on input feild,I implement this features useing useRef and and useEffect hook .
