@@ -1,19 +1,19 @@
 {
     "videos": [
         {
-            "id": 1,
-            "title": "Dil Jashn Bole | ICC Men's Cricket World Cup 2023 Official Anthem | Pritam",
-            "description": "আপনারা যারা বিগিনার হিসেবে রিয়্যাক্ট জেস নিয়ে কাজ করা শুরু করেছেন, তারা রিয়্যাক্ট এর বেশ কিছু কনসেপ্ট ঠিক মতো আয়ত্ত না করতে পারার কারণে বিচিত্র কিছু সমস্যার সম্মুখীন হন এবং শেষ পর্যন্ত বুঝতে না পেরে হতাশ হয়ে পড়েন। তাদের জন্যই এই ভিডিওটি। এই ভিডিওতে আমি এমন ১০টি সমস্যার কথা তুলে ধরেছি যেগুলো বিগিনার হিসেবে আপনারা অহরহ সম্মুখীন হবেন। আশা করি ভিডিওটি দেখলে আপনাদের এই সমস্যাগুলো নিয়ে আর কনফিউশন থাকবেনা।",
-            "author": "Learn with Sumit",
-            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
-            "date": "May 10, 2022",
-            "duration": "10:12",
-            "views": "2.1k",
-            "link": "https://www.youtube.com/watch?v=JhIBqykjzbs",
-            "thumbnail": "https://i.ibb.co/xDg2SkQ/pexels-patrick-case-3800517.jpg",
-            "tags": ["javascript", "react", "tips"],
-            "likes": 0,
-            "unlikes": 0
+          "id": 1,
+          "title": "Dil Jashn Bole | ICC Men's Cricket World Cup 2023 Official Anthem | Pritam",
+          "description": "আপনারা যারা বিগিনার হিসেবে রিয়্যাক্ট জেস নিয়ে কাজ করা শুরু করেছেন, তারা রিয়্যাক্ট এর বেশ কিছু কনসেপ্ট ঠিক মতো আয়ত্ত না করতে পারার কারণে বিচিত্র কিছু সমস্যার সম্মুখীন হন এবং শেষ পর্যন্ত বুঝতে না পেরে হতাশ হয়ে পড়েন। তাদের জন্যই এই ভিডিওটি। এই ভিডিওতে আমি এমন ১০টি সমস্যার কথা তুলে ধরেছি যেগুলো বিগিনার হিসেবে আপনারা অহরহ সম্মুখীন হবেন। আশা করি ভিডিওটি দেখলে আপনাদের এই সমস্যাগুলো নিয়ে আর কনফিউশন থাকবেনা।",
+          "author": "Learn with Sumit",
+          "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+          "date": "May 10, 2022",
+          "duration": "10:12",
+          "views": "2.1k",
+          "link": "https://www.youtube-nocookie.com/embed/WBpVPpc-Uus?si=4b50-TjS5FssKEnV&amp",
+          "thumbnail": "https://i.ibb.co/xDg2SkQ/pexels-patrick-case-3800517.jpg",
+          "tags": ["javascript", "react", "tips"],
+          "likes": 0,
+          "unlikes": 0
         },
         {
             "id": 2,
@@ -149,3 +149,4 @@
         }
     ]
 }
+

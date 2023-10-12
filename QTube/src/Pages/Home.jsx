@@ -1,5 +1,5 @@
 import VideoGrid from "../components/Videos/VideoGrid"
-import Tag from "../components/tag/Tag"
+import Tag from "../components/tag/Tags"
 
 const Home = () => {
   return (

@@ -2,11 +2,11 @@ import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
-    
     <div className="flex w-full bg-[#0F0F0F] text-white p-2">
-      <div className="w-1/2">
-        <Link to='/' className="btn btn-ghost normal-case text-xl font-bold ">QTube</Link>
-      </div>
+      <Link to={'/'} className="w-1/2">
+       
+        <img src="https://i.ibb.co/1Jd8ZQp/logo.png" className="w-12 ml-2 rounded-md" alt="QTube_logo" />
+      </Link>
       <div className="flex gap-8  w-2/3 justify-between">
         <div className="">
           <input
@@ -23,8 +23,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-    
-  )
+  );
 }
 
 export default Navbar
