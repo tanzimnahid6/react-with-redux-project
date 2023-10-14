@@ -3,6 +3,7 @@ import counterReducer from "../features/counter/counterSlice";
 import VideoSlice from "../features/Videos/VideoSlice";
 import singleVideoSlice from "../features/loadSingleVideo/singleVideoSlice";
 import tagsSlice from "../features/tags/fetchAllTagSlice";
+import likeSlice from "../features/like/likeSlice";
 
 export const store = configureStore({
   reducer: {
@@ -10,5 +11,6 @@ export const store = configureStore({
     videos: VideoSlice,
     video: singleVideoSlice,
     tags: tagsSlice,
+    likes:likeSlice
   },
 });
