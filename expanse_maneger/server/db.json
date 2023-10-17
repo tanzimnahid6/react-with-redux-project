@@ -1,0 +1,7 @@
+{
+  "transactions": [
+    { "type": "income", "name": "Salary", "amount": 1000, "id": 1 },
+    { "type": "expense", "name": "Groceries", "amount": 50, "id": 2 },
+    { "type": "income", "name": "Freelance", "amount": 300, "id": 3 }
+  ]
+}
