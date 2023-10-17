@@ -1,7 +1,34 @@
 {
   "transactions": [
-    { "type": "income", "name": "Salary", "amount": 1000, "id": 1 },
-    { "type": "expense", "name": "Groceries", "amount": 50, "id": 2 },
-    { "type": "income", "name": "Freelance", "amount": 300, "id": 3 }
+    {
+      "type": "income",
+      "name": "Salary",
+      "amount": 1000,
+      "id": 1
+    },
+    {
+      "type": "expense",
+      "name": "Groceries",
+      "amount": 50,
+      "id": 2
+    },
+    {
+      "name": "Home Loan",
+      "amount": 300,
+      "type": "income",
+      "id": 3
+    },
+    {
+      "name": "Buy burger",
+      "amount": 60,
+      "type": "income",
+      "id": 5
+    },
+    {
+      "name": "Buy Phone",
+      "amount": 8900,
+      "type": "expense",
+      "id": 6
+    }
   ]
 }

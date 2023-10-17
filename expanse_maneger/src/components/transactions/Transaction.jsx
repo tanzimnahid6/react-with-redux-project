@@ -1,7 +1,29 @@
+import { LuClipboardEdit } from "react-icons/Lu";
+import { MdDeleteOutline } from "react-icons/Md";
+import { useDispatch } from "react-redux";
+import {
+  deleteAsyncTranjaction,
+  editActive,
+  fetchAsyncTransaction,
+} from "../../features/tranjaction/tranjactionSlice";
 
+const Transaction = ({ type, name, amount, id }) => {
+  const dispatch = useDispatch();
+  //delete functionality
+  const handleDelete = (id) => {
+    dispatch(deleteAsyncTranjaction(id));
+    dispatch(fetchAsyncTransaction());
+  };
+  const handleupdate = () => {
+    const editObj = {
+      id,
+      name,
+      amount,
+      type,
+    };
+    dispatch(editActive(editObj))
+  };
 
-
-const Transaction = ({ type, name, amount }) => {
   return (
     <div
       className={`${
@@ -17,6 +39,7 @@ const Transaction = ({ type, name, amount }) => {
           {name}
         </p>
       </div>
+
       <div>
         <p
           className={`font-semibold text-${
@@ -25,6 +48,22 @@ const Transaction = ({ type, name, amount }) => {
         >
           {type === "income" ? `+ $${amount}` : `- $${amount}`}
         </p>
+      </div>
+      <div className="flex gap-2 items-center cursor-pointer">
+        <span>
+          <LuClipboardEdit
+            data-tip="Edit"
+            onClick={() => handleupdate()}
+            size={20}
+            type="button"
+          ></LuClipboardEdit>
+        </span>
+        <span>
+          <MdDeleteOutline
+            onClick={() => handleDelete(id)}
+            size={24}
+          ></MdDeleteOutline>
+        </span>
       </div>
     </div>
   );
